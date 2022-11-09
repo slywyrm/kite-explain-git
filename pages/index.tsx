@@ -31,8 +31,7 @@ export default function Home({
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <p>{test}</p>
-        <div><b>Bold test</b></div>
-        <div> <i>Italic test</i></div>
+        <b>Bold test</b>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li className={utilStyles.listItem} key={id}>
